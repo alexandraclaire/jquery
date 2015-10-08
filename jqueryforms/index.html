@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery Forms</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+	<h1>sign up here</h1>
+	<form action="index.html" method="post">
+		<p>
+			<label for="user_name">username:</label>
+			<input type="text" id="user_name" name="user_name">
+		</p>	
+		<p>
+			<label for="password">password:</label>
+			<input type="password" id="password" name="password">
+			<span>enter a password longer than 8 characters</span>
+		</p>
+		<p>
+			<label for="confirm_password">confirm password:</label>
+			<input type="password" id="confirm_password" name="confirm_password">
+			<span>confirm your password</span>
+		</p>	
+		<p>
+			<input type="submit" id="submit" value="take the plunge">
+		</p>
+	</form>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

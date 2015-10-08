@@ -1,0 +1,23 @@
+body {
+	background:ivory;
+	font-family:helvetica;
+}
+.demo {
+	background:pink;
+	width:500px;
+	height:500px;
+	margin:5em;
+}
+#two {
+	background:pink;
+	width:300px;
+	height:300px;
+	display:none;
+}
+button {
+	border-radius:0;
+	background:orange;
+	border:none;
+	width:300px;
+	font-size:30px;
+}

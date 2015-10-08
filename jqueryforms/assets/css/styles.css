@@ -1,0 +1,19 @@
+body {
+	font-family:courier;
+	max-width:960px;
+	width:88%;
+	margin:0 auto;
+	text-align:center;
+}
+h1 {
+	padding-bottom:1em;
+	padding-top:1em;
+	font-size:80px;
+}
+input[type="submit"] {
+	border-radius:0;
+	background:orange;
+	border:none;
+	padding:1em 3em;
+	font-size:15px;
+}
